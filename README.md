@@ -24,43 +24,16 @@ This application allows users to manage tasks through the command line. Each tas
 3. Install dependencies:
 
 ```bash
-go get github.com/fatih/color
-```
-
-## Build and Run
-
-1. Navigate to the project directory.
-2. Build the application:
-
-```bash
-go build -o CLI-ToDo
+go get github.com/1428Stef/CLI-ToDo-GO
 ```
 
 3. Run the program:
 
 ```bash
-./CLI-ToDo
+CLI-ToDO.exe
 ```
 
-## Usage
-
-When starting, the program shows the message:
-
-```
-Type 'help' for a list of commands.
-Hello, enter the command:
-```
-
-Enter one of the following commands:
-
-- `add` to add a new task.
-- `show` to view tasks.
-- `done` to mark a task as completed.
-- `del` to delete a task.
-- `help` for help information.
-- `ext` to exit the program.
-
-## Feature
+---
 
 Tasks are saved as separate files, which simplifies task management and storage.
 
