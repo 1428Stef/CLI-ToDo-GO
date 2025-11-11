@@ -27,7 +27,7 @@ This application allows users to manage tasks through the command line. Each tas
 go get github.com/1428Stef/CLI-ToDo-GO
 ```
 
-3. Run the program:
+## Run the program:
 
 ```bash
 CLI-ToDO.exe
